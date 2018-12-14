@@ -4,5 +4,10 @@
 .home {
 }
 .block-size {
-  height: 700px;
+  height: 650px;
+}
+.img-style {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }

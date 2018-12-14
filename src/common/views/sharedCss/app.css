@@ -29,6 +29,12 @@ html, body, #root {
 .bottom {
   height: 200px;
 }
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 /* DESKTOP VIEW */
 

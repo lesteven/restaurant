@@ -1,3 +1,30 @@
 .menu {
-  background-color: #e1e1e1;
+  background-color: #F5F1ED;
+  display: flex;
+}
+.menu > div {
+  flex: 1;
+}
+
+.menu {
+  color: #840032;
+}
+.menu h2 {
+  font-weight: normal;
+}
+.menu > :nth-child(1) {
+  padding: 5%;
+}
+
+
+
+@media only screen and (min-width:500px) {
+}
+
+/* MOBILE VIEW */
+
+@media only screen and (max-width:500px) {
+  .menu {
+    flex-direction: column-reverse;
+  }
 }

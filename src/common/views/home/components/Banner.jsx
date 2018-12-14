@@ -8,7 +8,7 @@ class Banner extends Component {
   }
     return (
       <div className = 'banner'>
-        <div style = { style } className = 'block-size'>
+        <div className = 'img-style block-size center' style = { style }>
           <h1> ANONYMOUS </h1> 
         </div>
       </div>
