@@ -8,6 +8,7 @@ const footerData = [
   [
     'Everyday: 7am - 10pm',
     'Even Holidays',
+    ' ',
 
   ],
 ]

@@ -3,11 +3,25 @@
 }
 .home {
 }
-.block-size {
-  height: 650px;
-}
 .img-style {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+/* DESKTOP VIEW */
+
+@media only screen and (min-width:500px) {
+  .block-size {
+    height: 650px;
+  }
+}
+
+/* MOBILE VIEW */
+
+@media only screen and (max-width:500px) {
+  .block-size {
+    height: 800px;
+  }
 }
