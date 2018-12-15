@@ -1,19 +1,16 @@
-.menu {
+.menu, .owner {
   background-color: #F5F1ED;
   display: flex;
 }
-.menu > div {
+.menu > div, .owner > div {
   flex: 1;
 }
 
-.menu {
+.menu, .owner {
   color: #840032;
 }
 .menu h2 {
   font-weight: normal;
-}
-.menu > :nth-child(1) {
-  padding: 5%;
 }
 
 
@@ -26,5 +23,8 @@
 @media only screen and (max-width:500px) {
   .menu {
     flex-direction: column-reverse;
+  }
+  .owner {
+    flex-direction: column;
   }
 }

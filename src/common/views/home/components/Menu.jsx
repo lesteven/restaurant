@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import styles from '../css/menu.css';
 
+
 class Menu extends Component {
   render() {
   const imgStyle = {
